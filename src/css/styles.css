@@ -18,3 +18,39 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+
+ul {
+  list-style: none;
+  display: block;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: block;
+  text-align: center;
+  margin: 0;
+}
+
+input {
+  display:block;
+  margin: auto;
+  text-align: center;
+}
+
+.list-item {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.country-info {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+h3 {
+  font-size: 32px;
+  margin: 0;
+}
