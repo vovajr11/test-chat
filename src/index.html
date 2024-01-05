@@ -8,6 +8,12 @@
     <script src="https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@main/dist/build/static/js/bundle.min.js"></script>
   </head>
   <body>
+    <langflow-chat
+    chat_input_field="input"
+    chat_inputs='{"input":""}'
+    host_url="langflow url"
+    flow_id="your_flow_id"
+  ></langflow-chat>
     <input type="text" id="search-box" />
     <ul class="country-list"></ul>
     <div class="country-info"></div>
